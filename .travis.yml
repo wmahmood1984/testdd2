@@ -1,6 +1,6 @@
 language: node_js
 node_js: 
-  - ltd/*
+  - lts/*
 
 script:
     - npm install
