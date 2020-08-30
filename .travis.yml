@@ -2,7 +2,7 @@ language: node_js
 node_js: 
   - "stable"
 
-  script:
+script:
     - npm install
     - npm test
     - npm run build
@@ -10,7 +10,7 @@ node_js:
 deploy:
   provider: surge 
   skip_cleanup: true
-  domain: aberrant-tree.surge.sh
+  domain: testddwm.surge.sh
   project: ./build/
 
 on: 
