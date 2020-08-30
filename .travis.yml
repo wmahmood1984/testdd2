@@ -1,8 +1,9 @@
 language: node_js
-
+node_js: 
+  - ls-remote
 
 script:
-    - nvm ls-remote
+    - npm install
     - npm test
     - npm run build
 
