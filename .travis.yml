@@ -10,7 +10,7 @@ script:
 deploy:
   provider: surge 
   skip_cleanup: true
-  domain: testddwm.surge.sh
+  domain: swift-adjustment.surge.sh
   project: ./build/
 
 on: 
