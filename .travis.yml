@@ -3,7 +3,7 @@ node_js:
   - lts/*
 
 script:
-    - npm install
+    - nvm ls-remote --lts
     - npm test
     - npm run build
 
